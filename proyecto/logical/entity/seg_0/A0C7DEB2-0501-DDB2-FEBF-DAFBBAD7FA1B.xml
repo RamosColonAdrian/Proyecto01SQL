@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0C7DEB2-0501-DDB2-FEBF-DAFBBAD7FA1B" name="Estadio">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-02 17:24:13 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="3987DB89-0449-D9CA-C3D1-44136936670A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre" id="846D5BA7-8B5E-AE6A-2EF6-8F46D50661B4">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-02 17:24:19 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="3987DB89-0449-D9CA-C3D1-44136936670A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ciudad" id="9700537E-E25A-E042-587A-026196D30139">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-02 17:24:26 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="3987DB89-0449-D9CA-C3D1-44136936670A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="972741C2-9635-47B2-22F8-75649CAD0C00">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-02 17:24:30 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="3987DB89-0449-D9CA-C3D1-44136936670A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Partido" id="E8200F04-5BB9-1F0B-995B-502EE324ACCF">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-02 17:24:50 UTC</createdTime>
+<generatorID>F3197AD9-028F-56D9-05C9-A05EF59AE1D0</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="3987DB89-0449-D9CA-C3D1-44136936670A" value="true"/>
+</engineerTo>
+<referedAttribute>6FDE70C9-3A26-421F-06BA-B627DF2FED03</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4139C61A-DCBD-D1AE-E490-2ADDD11543DD" name="Estadio PK">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-02 17:24:25 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="3987DB89-0449-D9CA-C3D1-44136936670A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>846D5BA7-8B5E-AE6A-2EF6-8F46D50661B4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

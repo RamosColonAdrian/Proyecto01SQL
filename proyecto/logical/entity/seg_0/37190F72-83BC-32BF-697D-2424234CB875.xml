@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37190F72-83BC-32BF-697D-2424234CB875" name="Hincha">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-02 17:25:25 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="3987DB89-0449-D9CA-C3D1-44136936670A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>
