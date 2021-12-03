@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asiste" directorySegmentName="seg_0" id="C8233B67-C802-5FEA-A4B4-E3F7627703BB">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:25:08 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FDDEF462-8EFB-07C6-4179-5BBC9BDEB876</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2B17309B-1EFA-9B99-34B2-ADF20CD8BD09</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD61CA56-074B-EB44-1E9B-615E8022791B" name="Equipo">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:18:31 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nom_selección" id="221E72DF-F9C2-1D72-C5C7-E21FD94731F3">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:29:59 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Capitan" id="8EDB2DAD-BC78-08E4-5CBB-63A1A5FCC481">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:30:11 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cuerpo_tecnico     " id="E33FC924-DA9B-C292-7BE0-84B75ACA8557">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:30:15 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lugar_entreno" id="642ECD58-C51B-032B-EED1-B4FF761CE290">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:30:25 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B83B0BE-3BEF-1AB1-7770-815148A3EBB6" name="Equipo PK">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:30:09 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>221E72DF-F9C2-1D72-C5C7-E21FD94731F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

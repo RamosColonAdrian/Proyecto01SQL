@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FDDEF462-8EFB-07C6-4179-5BBC9BDEB876" name="Estadio">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:18:09 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre" id="10E77F1B-8536-0C2C-E7DF-C682C7E5FAE9">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:24:26 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ciudad" id="AF25EF91-7B93-E991-801E-5D2B7858B1FF">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:24:32 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="9F9B8DC9-50F8-1390-9A82-C65AC68983F2">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:24:33 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7002A3E-C2F9-D152-A730-9C8A198A56B7" name="Estadio PK">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:24:30 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>10E77F1B-8536-0C2C-E7DF-C682C7E5FAE9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

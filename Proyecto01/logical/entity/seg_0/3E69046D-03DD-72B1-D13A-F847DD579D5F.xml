@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E69046D-03DD-72B1-D13A-F847DD579D5F" name="Arbitro">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:18:12 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Pasaporte" id="FA644959-F588-8D22-7B9C-EF78DE95FA6F">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:21:23 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_partido" id="76E65F3C-4F3E-CBCD-D496-B3A4D24211CA">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:20:41 UTC</createdTime>
+<generatorID>75997AB3-1B33-83E9-AA87-BD8DB5EE0B89</generatorID>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<referedAttribute>A11ABFAE-BFEC-73EC-A897-EE7481CC878F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nacionalidad" id="B3863284-E370-FE38-4A66-72F8C0CC5FC2">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:21:06 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="País" id="51EBBE98-CC2E-62A0-00F2-BDC1E45076F9">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:21:29 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nom_apellidos" id="F7A1FF5F-5A6E-8610-0E0F-D4C6FF21A4D0">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:21:34 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Año_actividad" id="6B81F170-588B-25B4-5036-9100BAD4F01B">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:21:55 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pasaporte1" id="9ADE3EA2-9792-33F4-7E99-F4F75081D71B">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:22:12 UTC</createdTime>
+<generatorID>89C2C842-97B1-2217-46BF-A993F289B2E8</generatorID>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<referedAttribute>FA644959-F588-8D22-7B9C-EF78DE95FA6F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5DA3F71-0E82-A573-B6AF-B253CB47AF70" name="Arbitro PK">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:21:47 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA644959-F588-8D22-7B9C-EF78DE95FA6F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

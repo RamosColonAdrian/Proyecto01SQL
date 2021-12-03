@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reemplaza" directorySegmentName="seg_0" id="89C2C842-97B1-2217-46BF-A993F289B2E8">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:22:12 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<targetPk>E5DA3F71-0E82-A573-B6AF-B253CB47AF70</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3E69046D-03DD-72B1-D13A-F847DD579D5F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E69046D-03DD-72B1-D13A-F847DD579D5F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Dolencia" id="2F15DC5C-4871-4132-EDD2-2468E816C741">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:22:58 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

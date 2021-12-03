@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Juega" directorySegmentName="seg_0" id="C6F73380-A8C4-39CE-0C33-18569620943D">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:29:45 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E09860CD-BCE3-7504-935A-C176C3B837A2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD61CA56-074B-EB44-1E9B-615E8022791B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

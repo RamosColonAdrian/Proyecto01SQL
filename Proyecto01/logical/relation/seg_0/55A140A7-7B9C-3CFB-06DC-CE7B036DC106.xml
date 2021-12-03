@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ocurre" directorySegmentName="seg_0" id="55A140A7-7B9C-3CFB-06DC-CE7B036DC106">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:23:33 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<sourcePk>D40D2CB8-0A38-9DAA-F4E6-DB1D197F148D</sourcePk>
+<targetPk>B7002A3E-C2F9-D152-A730-9C8A198A56B7</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E09860CD-BCE3-7504-935A-C176C3B837A2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FDDEF462-8EFB-07C6-4179-5BBC9BDEB876</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Num_policia" id="ECEA9CEF-1F2E-BA2E-B1E6-2554F9EC24A4">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:24:15 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

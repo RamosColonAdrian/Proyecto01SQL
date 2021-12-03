@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="esv2" directorySegmentName="seg_0" id="4616AD5B-8920-04CA-2592-64A428F4740D">
+<createdBy>Rubi_01</createdBy>
+<createdTime>2021-12-03 15:26:07 UTC</createdTime>
+<ownerDesignName>Proyecto01</ownerDesignName>
+<engineerTo>
+<item key="3C795D05-09CE-16DF-5AC8-C1F324741350" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>2B17309B-1EFA-9B99-34B2-ADF20CD8BD09</sourceEntity>
+<targetEntity>35F7B3FC-4CBE-BB81-030C-E97C9ACE5223</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
